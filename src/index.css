@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #07090F;
+  color: #E8ECF5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #1E2438; border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: #2A3350; }
+
+.font-mono { font-family: 'Fira Code', monospace; }
+
+/* Recharts overrides */
+.recharts-tooltip-wrapper { outline: none !important; }
+.recharts-default-tooltip {
+  background: #111520 !important;
+  border: 1px solid #1E2438 !important;
+  border-radius: 8px !important;
+  padding: 8px 12px !important;
+}
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line { stroke: #1E2438 !important; }
+.recharts-text { fill: #7B88A4 !important; font-family: 'Fira Code', monospace !important; font-size: 11px !important; }
