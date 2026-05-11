@@ -41,7 +41,7 @@ export default function App() {
         </div>
 
         {/* Page content */}
-        <div className="p-6 max-w-6xl">
+        <div className="p-6 max-w-8xl">
           <PageComponent onNavigate={setPage} />
         </div>
       </main>

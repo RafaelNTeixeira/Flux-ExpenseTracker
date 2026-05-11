@@ -2,6 +2,8 @@
 
 A modern, feature-rich personal finance tracker built with React, Vite and Tailwind CSS. Track expenses, split your salary into smart budget buckets, analyse spending patterns and stay on top of your financial health. All stored locally in your browser.
 
+![alt text](images/image-7.png)
+
 ---
 
 ## Features
